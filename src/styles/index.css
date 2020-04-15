@@ -1,1 +1,75 @@
-<!-- Enter your CSS code here -->
+body {
+    padding: 25px ;
+    background-color: white !important;
+    color: black !important;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black !important;
+    color: white !important;
+  }
+
+.button{
+    border-radius: 5px;
+    width: 100px;
+}
+
+
+.border{
+    padding-top: 10px !important;
+    padding-right: 5px !important;
+    padding-bottom: 10px !important;
+    padding-left: 5px !important;
+    background-color:lightgray !important;
+}
+
+#news-articles{
+display:grid;
+grid-template-columns:450px 450px 450px;
+}
+
+.card-body{
+    background-color:black !important;
+    color : white !important;
+}
+
+#loader { 
+    border: 12px solid #f3f3f3; 
+    border-radius: 50%; 
+    border-top: 12px solid #444444; 
+    width: 70px; 
+    height: 70px; 
+    animation: spin 5s linear infinite; 
+   
+    
+} 
+  
+@keyframes spin { 
+    0%{
+        transform: rotate(50deg);
+        scale: (1);
+        
+    }
+    30%{
+        transform: rotate(100deg);
+        scale: (2);
+    }
+    70%{
+        transform: rotateZ(180deg);
+        scale: (3);
+    }
+    100% { 
+        transform: rotate(360deg); 
+        scale: (4);
+    } 
+} 
+  
+.center { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto; 
+} 

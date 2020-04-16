@@ -60,7 +60,7 @@ else
             
            <img class="article-img" src="${img}" alt="no image"  width="100%"/>
             
-           <h2 class="article-title">${title}-${source}</h2><br>
+           <h2 class="article-title">${title}-${source}...</h2><br>
             
             <p class="article-description">${description}</p><br>
             
@@ -137,7 +137,7 @@ async function getdata() {
        
            <img class="article-img" src="${img}" alt="no image"  width="100%">
             
-            <h2 class="article-title">${title}-${source}</h2><br>
+            <h2 class="article-title">${title}-${source}...</h2><br>
             
             <p class="article-description">${description}</p><br>
             

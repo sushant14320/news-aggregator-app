@@ -51,22 +51,24 @@ else
     const link = article.url;
 
     squery+=`
-    <li>
-    <div class="card" style="width:400px;">
-      <article class="card-body">
-            <img class="article-img card-img-top" src="${img}" height="300px" width="350px">
+    <div class="main_card" style="width:400px;">
+     
+    <li class="article">
+      <img class="article-img" src="${img}"  height="100%"  width="100%">
+        <article class="conatainer_card">
             
-            <h2 class="article-title card-title">${title}</h2><br>
             
-            <p class="article-description card-text">${description}</p><br>
+            <h2 class="article-title">${title}</h2><br>
+            
+            <p class="article-description">${description}</p><br>
             
             <span class="article-author"><em>${auth}</em></span><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
-      </article>
+        </article>
+        </li>
     </div>
-    </li>
     
     `
     document.getElementById("news-articles").innerHTML = squery;
@@ -123,22 +125,26 @@ async function getdata() {
 
 
     out+=`
+    <div class="main_card" style="width:400px;">
+     
     <li class="article">
-    <div class="card" style="width:400px;">
-      <article class="card-body">
-            <img class="article-img card-img-top" src="${img}" height="300px" width="350px">
+      <img class="article-img" src="${img}"  height="100%"  width="100%">
+        <article class="conatainer_card">
             
-            <h2 class="article-title card-title">${title}</h2><br>
             
-            <p class="article-description card-text">${description}</p><br>
+            <h2 class="article-title">${title}</h2><br>
+            
+            <p class="article-description">${description}</p><br>
             
             <span class="article-author"><em>${auth}</em></span><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
-      </article>
+        </article>
+        </li>
     </div>
-    </li>
+  
+    
     
     `
     document.getElementById("news-articles").innerHTML = out;

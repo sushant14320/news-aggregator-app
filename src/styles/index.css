@@ -79,9 +79,10 @@ grid-row-gap:20px;
     margin: auto; 
 } 
 
- /*.article-author{
-    float:right;
-} */
+ .article-author{
+     display: block;
+   text-align: right !important;
+} 
 
 
 .main_card {

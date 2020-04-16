@@ -79,10 +79,8 @@ grid-row-gap:20px;
     margin: auto; 
 } 
 
-/* .article-author{
-    position: relative;
-    left: 75%;
-    white-space: pre;
+ /*.article-author{
+    float:right;
 } */
 
 

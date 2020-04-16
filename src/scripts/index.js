@@ -64,7 +64,7 @@ else
             
             <p class="article-description">${description}</p><br>
             
-            <span class="article-author">-${auth} </span><br>
+            <span class="article-author">-${auth} </span><br><br><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
@@ -141,7 +141,7 @@ async function getdata() {
             
             <p class="article-description">${description}</p><br>
             
-            <span class="article-author">-${auth}</span><br>
+            <span class="article-author">-${auth}</span><br><br><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     

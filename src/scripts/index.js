@@ -58,13 +58,13 @@ else
       
         
             
-           <img class="article-img" src="${img}" alt="no image"  width="100%">
+           <img class="article-img" src="${img}" alt="no image"  width="100%"/>
             
-           <h2 class="article-title"> ${title}-${source} </h2><br>
+           <h2 class="article-title">${title}-${source}</h2><br>
             
             <p class="article-description">${description}</p><br>
             
-            <span class="article-author"> ${auth} </span><br><br><br>
+            <span class="article-author">${auth}</span><br><br><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
@@ -72,7 +72,7 @@ else
         </li>
     </div>
     
-    `
+    `;
     document.getElementById("news-articles").innerHTML = squery;
 
   })
@@ -137,11 +137,11 @@ async function getdata() {
        
            <img class="article-img" src="${img}" alt="no image"  width="100%">
             
-            <h2 class="article-title"> ${title}-${source} </h2><br>
+            <h2 class="article-title">${title}-${source}</h2><br>
             
             <p class="article-description">${description}</p><br>
             
-            <span class="article-author"> ${auth} </span><br><br><br>
+            <span class="article-author">${auth}</span><br><br><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
@@ -153,7 +153,7 @@ async function getdata() {
   
     
     
-    `
+    `;
     document.getElementById("news-articles").innerHTML = out;
         
   })

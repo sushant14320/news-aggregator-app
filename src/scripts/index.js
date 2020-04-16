@@ -63,7 +63,7 @@ else
             
             <p class="article-description">${description}</p><br>
             
-            <span class="article-author"><em>${auth}</em></span><br>
+            <span class="article-author"><em>-${auth}</em></span><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     

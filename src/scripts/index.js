@@ -81,7 +81,7 @@ else
 
 } //end of for loop
 
-// searchData.addEventListener("input", function(){
+// searchData.addEventListener("input", function(event){
 
 //   if(!this.value){
 //     document.getElementById("news-articles").innerHTML = out;
@@ -151,4 +151,12 @@ async function getdata() {
 
 }
 
-//for resetting
+//search results apear on hitting enter
+
+let input = document.getElementById("search");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   search();
+  }
+});

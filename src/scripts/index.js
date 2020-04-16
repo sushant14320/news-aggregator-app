@@ -81,6 +81,13 @@ else
 
 } //end of for loop
 
+// searchData.addEventListener("input", function(){
+
+//   if(!this.value){
+//     document.getElementById("news-articles").innerHTML = out;
+//   }
+  
+//   })
 
 
   }
@@ -116,7 +123,7 @@ async function getdata() {
 
 
     out+=`
-    <li>
+    <li class="article">
     <div class="card" style="width:400px;">
       <article class="card-body">
             <img class="article-img card-img-top" src="${img}" height="300px" width="350px">
@@ -144,3 +151,4 @@ async function getdata() {
 
 }
 
+//for resetting

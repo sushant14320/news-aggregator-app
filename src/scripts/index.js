@@ -151,6 +151,9 @@ async function getdata() {
 
 }
 
+ 
+
+
 //search results apear on hitting enter
 
 let input = document.getElementById("search");

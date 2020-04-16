@@ -49,16 +49,17 @@ else
     const description = article.description;
     const auth = article.author;
     const link = article.url;
-
+ 
     squery+=`
     <div class="main_card" style="width:400px;">
      
     <li class="article">
-      <img class="article-img" src="${img}"  height="100%"  width="100%">
+      
         <article class="conatainer_card">
             
+           <img class="article-img" src="${img}"  height="100%"  width="100%">
             
-            <h2 class="article-title">${title}</h2><br>
+           <h2 class="article-title">${title}</h2><br>
             
             <p class="article-description">${description}</p><br>
             
@@ -125,24 +126,28 @@ async function getdata() {
 
 
     out+=`
-    <div class="main_card" style="width:400px;">
+   <div class="main_card" style="width:400px;">
      
     <li class="article">
-      <img class="article-img" src="${img}"  height="100%"  width="100%">
+      
         <article class="conatainer_card">
-            
+       
+       
+           <img class="article-img" src="${img}"  height="100%"  width="100%">
             
             <h2 class="article-title">${title}</h2><br>
             
             <p class="article-description">${description}</p><br>
             
-            <span class="article-author"><em>${auth}</em></span><br>
+            <span class="article-author">${auth}</span><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
         </article>
-        </li>
-    </div>
+       
+     </li>
+    
+     </div>
   
     
     

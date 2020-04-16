@@ -49,6 +49,7 @@ else
     const description = article.description;
     const auth = article.author;
     const link = article.url;
+    const source = article.source.name;
  
     squery+=`
     <div class="main_card" style="width:400px;">
@@ -59,11 +60,11 @@ else
             
            <img class="article-img" src="${img}"  width="100%">
             
-           <h2 class="article-title">${title}-</h2><br>
+           <h2 class="article-title">${title}-${source}</h2><br>
             
             <p class="article-description">${description}</p><br>
             
-            <span class="article-author">-${auth}</span><br>
+            <span class="article-author">-${auth} </span><br>
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
@@ -122,6 +123,7 @@ async function getdata() {
     const description = news.description;
     const auth = news.author;
     const link = news.url;
+    const source = news.source.name;
 
 
 
@@ -135,7 +137,7 @@ async function getdata() {
        
            <img class="article-img" src="${img}"  height="100%"  width="100%">
             
-            <h2 class="article-title">${title}-</h2><br>
+            <h2 class="article-title">${title}-${source}</h2><br>
             
             <p class="article-description">${description}</p><br>
             

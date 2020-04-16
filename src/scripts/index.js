@@ -55,9 +55,9 @@ else
      
     <li class="article">
       
-        <article class="conatainer_card">
+        
             
-           <img class="article-img" src="${img}"  height="100%"  width="100%">
+           <img class="article-img" src="${img}"  width="100%">
             
            <h2 class="article-title">${title}</h2><br>
             
@@ -67,7 +67,7 @@ else
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
-        </article>
+       
         </li>
     </div>
     
@@ -130,7 +130,7 @@ async function getdata() {
      
     <li class="article">
       
-        <article class="conatainer_card">
+        
        
        
            <img class="article-img" src="${img}"  height="100%"  width="100%">
@@ -143,7 +143,7 @@ async function getdata() {
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
-        </article>
+        
        
      </li>
     

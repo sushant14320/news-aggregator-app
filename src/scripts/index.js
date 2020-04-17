@@ -20,10 +20,10 @@ document.onreadystatechange = function() {
   function search(){
 
     
-var searchData = document.getElementById("search").value;
-const key = "897c2e65625e425396495470aef7fadd";
+      var searchData = document.getElementById("search").value;
+      const key = "897c2e65625e425396495470aef7fadd";
 
-const url = `https://newsapi.org/v2/everything?q=${searchData}&apiKey=${key}`
+      const url = `https://newsapi.org/v2/everything?q=${searchData}&apiKey=${key}`
 
 UserSearch();
 async function UserSearch(){
@@ -50,33 +50,11 @@ else
     const auth = article.author;
     const link = article.url;
     const source = article.source.name;
- 
-    squery+=`
-    <div class="main_card" style="width:400px;">
-     
-    <li class="article">
-      
-        <article>
-          
-           <img class="article-img" src="${img}" alt="no image"  width="100%"/>
-            
-           <h2 class="article-title">${title}-${source}</h2> 
-            
-            <p class="article-description">${description}</p>
-            
-           <span class="article-author">${auth}</span><br><br><br> 
-            
-            <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
+ //paste below
+ /*------------------------------------------------------------ */
     
-       </article>
-
-        </li>
-    </div>
-    
-    `;
-    document.getElementById("news-articles").innerHTML = squery;
-
-  })
+/*------------------------------------------------------------------- */
+  })   //paste above
   var squery =+ ''
   
   

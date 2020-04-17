@@ -56,19 +56,20 @@ else
      
     <li class="article">
       
-        
-            
+        <article>
+          
            <img class="article-img" src="${img}" alt="no image"  width="100%"/>
             
-          <!-- <h2 class="article-title">${title}-${source}</h2> -->
+           <h2 class="article-title">${title}-${source}</h2> 
             
             <p class="article-description">${description}</p>
             
-         <!--   <span class="article-author">${auth}</span><br><br><br> -->
+           <span class="article-author">${auth}</span><br><br><br> 
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
-       
+       </article>
+
         </li>
     </div>
     
@@ -132,8 +133,8 @@ async function getdata() {
      
     <li class="article">
       
-        
-       
+         
+       <article>
        
            <img class="article-img" src="${img}" alt="no image"  width="100%">
             
@@ -145,6 +146,7 @@ async function getdata() {
             
             <a class="article-link" href="${link}"><b>Full article</b></a><br><br><br><br>
     
+        </article>
         
        
      </li>
